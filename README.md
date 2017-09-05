@@ -1,4 +1,4 @@
-# Pre-work - *Name of App Here*
+# Pre-work - *Tipper*
 
 **Name of your app** is a tip calculator application for iOS.
 
@@ -23,7 +23,7 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
-## Video Walkthrough 
+## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
@@ -37,7 +37,7 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1**: "What are your reactions to the iOS app development platform so far? How would you describe outlets and actions to another developer? Bonus: any idea how they are being implemented under the hood? (It might give you some ideas if you right-click on the Storyboard and click Open As->Source Code")
 
-**Answer:** Xcode is a little confusing to use. In addition, Changing the name of an outlet was causing errors, and the stacktrace is really not useful in figuring out what was going on. To another developer, I would describe outlets as a way to declare variables that connect to components like buttons, labels within a view so they can be dynamically manipulated. Actions are used to read and accordingly act on data in the components represented by the outlets through functions. 
+**Answer:** Xcode is a little confusing to use. In addition, Changing the name of an outlet was causing errors, and the stacktrace is really not useful in figuring out what was going on. To another developer, I would describe outlets as a way to declare variables that connect to components like buttons, labels within a view so they can be dynamically manipulated. Actions are used to read and accordingly act on data in the components represented by the outlets through functions.
 
 Question 2: "Swift uses [Automatic Reference Counting](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html#//apple_ref/doc/uid/TP40014097-CH20-ID49) (ARC), which is not a garbage collector, to manage memory. Can you explain how you can get a strong reference cycle for closures? (There's a section explaining this concept in the link, how would you summarize as simply as possible?)"
 
