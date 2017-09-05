@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         billField.becomeFirstResponder()
         let intValue = getDefaultTip()
         tipControl.selectedSegmentIndex = intValue
+        calculateTip(self)
     }
 
     @IBAction func onTap(_ sender: AnyObject) {
